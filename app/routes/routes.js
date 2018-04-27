@@ -2,8 +2,7 @@ const express = require('express');
 var router = express.Router();
 
 function parseLanguage(acceptLanguage) {
-    let comma = acceptLanguage.indexOf(',');
-    return acceptLanguage.split("").slice(0, comma).join("");
+    return acceptLanguage.split(",")[0];
 }
 
 function parseUserAgent(userAgent) {
