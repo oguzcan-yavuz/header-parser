@@ -27,7 +27,11 @@
   },
   "homepage": "https://github.com/yavuzovski/header-parser#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "dotenv": "^5.0.1",
     "express": "^4.16.3"
+  },
+  "engines": {
+    "node": "9.11.1"
   }
 }
